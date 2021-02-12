@@ -1,0 +1,179 @@
+nav {
+    
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    
+}
+
+ nav ul {
+    
+    padding:0px;
+    margin:0px;
+    background-color:rgba(247, 247, 247, 0.5);
+    list-style:none;
+ }
+
+ nav ul li {
+
+    display: inline;
+  vertical-align: middle;
+
+ }
+
+ nav ul li a {
+    color: #000000;
+    display: inline-block;
+    font-family: 'Lexend Mega', sans-serif;
+    font-weight: bolder;
+    text-decoration: none;
+    padding: 2px 10px;
+ }
+
+ nav ul li a:hover {
+    background-color:#850e0e;
+    color: #030303;
+    border-bottom:3px solid #050505;
+}
+ 
+body {
+   background-image:url(https://www.edenproject.com/sites/default/files/styles/ep_main_image/public/images/main/my-chemical-romance-1405.gif?itok=rM2Xm7Hu);
+    background-attachment: fixed; 
+    
+}   
+
+.flx-mom {
+    align-content: center;
+    align-items: center;
+    background: #000000;
+    background: -moz-linear-gradient(left, #000000 0%, #6D6665 80%, #999D94 100%);
+    background: -webkit-linear-gradient(left, #000000 0%, #6D6665 80%, #999D94 100%);
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.5) 0%, rgba(109, 102, 101, 0.5) 80%, rgba(153, 157, 148, 0.2) 100%);
+   /* background-color: rgba(255, 255, 255, 0.2); */
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 100px;
+    padding: 10px;
+    
+}
+
+.flx-mom-2 {
+    align-content: center;
+    align-items: center;
+    background: #999D94;
+    background: -moz-linear-gradient(left, #999D94 0%, #6D6665 18%, #000000 100%);
+    background: -webkit-linear-gradient(left, #999D94 0%, #6D6665 18%, #000000 100%);
+    background: linear-gradient(to right, rgba(153, 157, 149, 0.2) 0%, rgba(109, 102, 101, 0.5) 18%, rgba(0, 0, 0, 0.5) 100%);
+   /* background-color: rgba(255, 255, 255, 0.2); */ 
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+    padding: 10px;
+    
+}
+
+.flx-mom-3 {
+    align-content: center;
+    align-items: center;
+    background: #000000;
+    background: -moz-linear-gradient(left, #000000 0%, #6D6665 80%, #999D94 100%);
+    background: -webkit-linear-gradient(left, #000000 0%, #6D6665 80%, #999D94 100%);
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.5) 0%, rgba(109, 102, 101, 0.5) 80%, rgba(153, 157, 148, 0.2) 100%);
+   /* background-color: rgba(255, 255, 255, 0.2); */
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+    padding: 10px;
+    
+}
+
+.flx-bby-1 img {
+width: 500px;
+margin: 10px;
+transition: width 2s;
+}
+
+.flx-bby-1 img:hover {
+    box-shadow: 5px 5px 15px 5px #910707;
+    width: 600px;
+}
+
+.flx-bby-2 {
+    background-color: rgb(5, 5, 5);
+    border: double white 4px;
+    border-radius: 5px;
+    
+    color:rgb(255, 255, 255);
+    font-family: 'Lexend Mega', sans-serif;
+    line-height: 25px;
+    margin: auto;
+    padding: 20px;
+    text-align:center;
+    width: 50%;
+
+   
+}
+
+.flx-bby-3 {
+
+    background-color: rgba(5, 5, 5, 0.8);
+    border: double white 4px;
+    border-radius: 5px;
+    color:rgb(255, 255, 255);
+    font-family: 'Lexend Mega', sans-serif;
+    line-height: 25px;
+    margin: auto;    
+    padding: 20px;
+    text-align: center;
+    width: 50%;
+    
+}
+
+
+.flx-bby-4 {
+    background-color: rgba(5, 5, 5, 0.8);
+    border: double white 4px;
+    border-radius: 5px;
+    color:rgb(255, 255, 255);
+    font-family: 'Lexend Mega', sans-serif;
+    line-height: 25px;
+    margin: auto;    
+    padding: 20px;
+    text-align: center;
+    width: 50%;
+  
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Mega&family=Nunito+Sans&display=swap');
+
+@media only screen and (max-width: 600px) {
+    .flx-bby-1 img {
+        width: 300px;
+        
+        }
+        .flx-bby-4 {
+            width: fit-content;
+            /*font-size: 10pt;*/
+        }
+
+        .flx-bby-3 {
+            width: fit-content;
+           
+            /*font-size: 10pt;*/
+        }
+        .flx-bby-2 {
+            width: fit-content;
+            /*font-size: 10pt;*/
+        }
+  }
